@@ -11,7 +11,7 @@ const Card = ({ character, uid, category }) => {
 
     return (
         <div className="card mb-2 mx-2 h-100" style={{ width: "18rem" }}>
-            <img src={imageToDisplay} className="card-img-top" alt="A Picture From Far Far Away" />
+            <img src={imageToDisplay} className="card-img-top" alt="No picture avaliable" />
             <div className="card-body d-flex justify-content-between flex-column">
                 <h4 className="card-title">{character.name}</h4>
                 {(category === "people") ?
@@ -28,7 +28,7 @@ const Card = ({ character, uid, category }) => {
                     )
                 }
                 <div className="card-buttons d-flex">
-                    <Link to={`/${category}/${uid}`}><button className="btn btn-primary btn-more">Learn More!</button></Link>
+                    <Link to={`/${category}/${uid}`}><button className="btn btn-primary btn-more">View Info</button></Link>
                     <button className="btn btn-danger btn-add-favorite" onClick={() => { actions.addFavorites(character.name) }}><i className="text-white far fa-heart"></i></button>
                 </div>
             </div>

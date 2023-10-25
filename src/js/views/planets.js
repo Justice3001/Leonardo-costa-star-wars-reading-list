@@ -20,7 +20,7 @@ const Planets = () => {
           <img src={imageToDisplay} className="rounded mx-2" style={{ width: "18rem" }} alt="Cool looking character"></img>
           <div className="mx-2 text-center">
             <h1 className="details-text mt-0 display-4">{planetsDetails.name}</h1>
-            <p className="planet-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+            <p className="planet-description">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </div>
         </div>
         <hr />

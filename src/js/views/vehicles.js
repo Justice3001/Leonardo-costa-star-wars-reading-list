@@ -18,7 +18,7 @@ const Vehicles = () => {
           <img src={vehiclesDetails.image} className="rounded mx-2" style={{ width: "18rem" }} alt="Cool looking character"></img>
           <div className="mx-2 text-center">
             <h1 className="text-light mt-0">{vehiclesDetails.name}</h1>
-            <p className="character-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+            <p className="character-description">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </div>
         </div>
         <hr />
